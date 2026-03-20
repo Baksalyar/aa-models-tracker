@@ -78,3 +78,34 @@ def fetch_models(top_n: int = 20) -> list[Model]:
         )
         for m in top
     ]
+
+
+def fetch_model_description(url: str, model_name: str = "") -> str:
+    """Scrape the short description paragraph from a model's page."""
+    resp = requests.get(url)
+    resp.raise_for_status()
+
+    chunks = re.findall(
+        r"<script>self\.__next_f\.push\(\[1,\"(.*?)\"\]\)</script>",
+        resp.text,
+        re.DOTALL,
+    )
+
+    # Look for a paragraph that starts with the model name
+    if model_name:
+        for chunk in chunks:
+            unescaped = chunk.encode().decode("unicode_escape")
+            matches: list[str] = re.findall(r'"children":"([^"]{80,})"', unescaped)
+            for text in matches:
+                if text.startswith(model_name):
+                    return text
+
+    # Fallback: meta description
+    for chunk in chunks:
+        unescaped = chunk.encode().decode("unicode_escape")
+        m = re.search(r'"name":"description","content":"([^"]+)"', unescaped)
+        if m:
+            result: str = m.group(1)
+            return result
+
+    return ""

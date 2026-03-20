@@ -3,7 +3,7 @@ from pathlib import Path
 
 from feedgen.feed import FeedGenerator  # type: ignore[import-untyped]
 
-from models_track.scraper import Model
+from models_track.scraper import Model, fetch_model_description
 
 DATA_DIR = Path("data")
 FEED_FILE = DATA_DIR / "feed.xml"
@@ -30,11 +30,17 @@ def write_new_models(new_models: list[Model]) -> None:
     fg = _load_or_create_feed()
 
     for m in new_models:
+        description = fetch_model_description(m.url, model_name=m.model_name)
+        now = datetime.now(timezone.utc)
+
         fe = fg.add_entry()
         fe.title(f"New model: {m.model_name} from {m.creator}, intel index {m.intelligence}")
         fe.link(href=m.url)
         fe.id(m.url)
-        fe.published(datetime.now(timezone.utc))
+        fe.published(now)
+        fe.updated(now)
+        if description:
+            fe.description(description)
 
     # If feed exists, merge old entries
     if FEED_FILE.exists():
@@ -47,5 +53,7 @@ def write_new_models(new_models: list[Model]) -> None:
             fe.id(old_fe.id())
             if old_fe.published():
                 fe.published(old_fe.published())
+            if old_fe.description():
+                fe.description(old_fe.description())
 
     fg.rss_file(str(FEED_FILE))
