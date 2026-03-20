@@ -1,9 +1,10 @@
-from scraper import fetch_models
-from storage import load_models, save_models
-from rss_writer import write_new_models
+from models_track.rss import write_new_models
+from models_track.scraper import fetch_models
+from models_track.storage import load_models, save_models
 
 
-def main() -> None:
+def run() -> None:
+    """Main entry point: fetch, diff, store, and emit RSS."""
     print("Fetching models from Artificial Analysis...")
     fresh = fetch_models(top_n=20)
     print(f"Fetched {len(fresh)} models")
@@ -30,6 +31,10 @@ def main() -> None:
         print("No new models detected")
 
     print("Done")
+
+
+def main() -> None:
+    run()
 
 
 if __name__ == "__main__":

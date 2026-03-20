@@ -1,9 +1,9 @@
 from datetime import datetime, timezone
 from pathlib import Path
 
-from feedgen.feed import FeedGenerator
+from feedgen.feed import FeedGenerator  # type: ignore[import-untyped]
 
-from scraper import Model
+from models_track.scraper import Model
 
 DATA_DIR = Path("data")
 FEED_FILE = DATA_DIR / "feed.xml"

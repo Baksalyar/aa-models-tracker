@@ -1,17 +1,19 @@
 import json
 from pathlib import Path
+from typing import Any
 
-from scraper import Model
+from models_track.scraper import Model
 
 DATA_DIR = Path("data")
 MODELS_FILE = DATA_DIR / "models.json"
 
 
-def load_models() -> list[dict]:
+def load_models() -> list[dict[str, Any]]:
     """Load stored models from JSON file."""
     if not MODELS_FILE.exists():
         return []
-    return json.loads(MODELS_FILE.read_text())
+    data: list[dict[str, Any]] = json.loads(MODELS_FILE.read_text())
+    return data
 
 
 def save_models(models: list[Model]) -> None:
