@@ -12,9 +12,11 @@ def run() -> None:
     stored = load_models()
 
     if not stored:
-        print("Empty storage — saving initial snapshot")
+        print("Empty storage — generating initial RSS entries for all models")
+        write_new_models(fresh)
         save_models(fresh)
         print(f"Saved {len(fresh)} models to data/models.json")
+        print("Done")
         return
 
     stored_urls = {m["url"] for m in stored}
