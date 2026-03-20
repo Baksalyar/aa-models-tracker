@@ -47,3 +47,9 @@ jobs:
 
       - name: Run tracker
         run: poetry run models-track
+
+      - name: Upload feed artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed-data
+          path: data/
