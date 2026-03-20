@@ -6,7 +6,7 @@ authors = [
     {name = "Andrey"}
 ]
 readme = "README.md"
-requires-python = "^3.10"
+requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4 (>=4.14.3,<5.0.0)",
     "lxml (>=6.0.2,<7.0.0)",
@@ -18,3 +18,10 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.7,<0.16.0)",
+    "mypy (>=1.19.1,<2.0.0)",
+    "types-requests (>=2.32.4.20260107,<3.0.0.0)"
+]
