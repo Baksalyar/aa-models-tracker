@@ -1,0 +1,20 @@
+[project]
+name = "models-track"
+version = "0.1.0"
+description = "Track top AI models from Artificial Analysis leaderboard"
+authors = [
+    {name = "Andrey"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "beautifulsoup4 (>=4.14.3,<5.0.0)",
+    "lxml (>=6.0.2,<7.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "feedgen (>=1.0.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
