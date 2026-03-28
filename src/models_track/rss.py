@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 from pathlib import Path
+from xml.etree import ElementTree
 
 from feedgen.feed import FeedGenerator  # type: ignore[import-untyped]
 
@@ -19,6 +20,41 @@ def _load_or_create_feed() -> FeedGenerator:
     fg.description("New additions to the Artificial Analysis LLM Leaderboard")
     fg.language("en")
     return fg
+
+
+def _add_old_entries(fg: FeedGenerator) -> None:
+    """Parse existing feed.xml and add entries to the new feed."""
+    if not FEED_FILE.exists():
+        return
+
+    tree = ElementTree.parse(FEED_FILE)
+    root = tree.getroot()
+
+    # Find all item elements (handle RSS namespace if present)
+    items = root.findall(".//item")
+    if not items:
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        items = root.findall(".//item")
+
+    for item in items:
+        title = item.findtext("title", "")
+        link = item.findtext("link", "")
+        guid = item.findtext("guid", "")
+        description = item.findtext("description", "")
+        pub_date = item.findtext("pubDate", "")
+
+        fe = fg.add_entry()
+        if title:
+            fe.title(title)
+        if link:
+            fe.link(href=link)
+        if guid:
+            fe.id(guid)
+        if description:
+            fe.description(description)
+        if pub_date:
+            fe.published(pub_date)
+            fe.updated(pub_date)
 
 
 def write_new_models(new_models: list[Model]) -> None:
@@ -42,18 +78,7 @@ def write_new_models(new_models: list[Model]) -> None:
         if description:
             fe.description(description)
 
-    # If feed exists, merge old entries
-    if FEED_FILE.exists():
-        old_fg = FeedGenerator()
-        old_fg.rss_file(str(FEED_FILE))
-        for old_fe in old_fg.entry():
-            fe = fg.add_entry()
-            fe.title(old_fe.title())
-            fe.link(href=old_fe.link()[0]["href"] if old_fe.link() else "")
-            fe.id(old_fe.id())
-            if old_fe.published():
-                fe.published(old_fe.published())
-            if old_fe.description():
-                fe.description(old_fe.description())
+    # Merge old entries from existing feed
+    _add_old_entries(fg)
 
     fg.rss_file(str(FEED_FILE))
