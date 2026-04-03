@@ -29,52 +29,69 @@ def fetch_models(top_n: int = 20) -> list[Model]:
         re.DOTALL,
     )
 
-    # Find the chunk containing the full models array (some chunks have sparse data)
-    models_json = None
+    # Find chunks with model data
+    models_basic = None
+    models_metrics = None
+
     for chunk in chunks:
         unescaped = chunk.encode().decode("unicode_escape")
-        if '"models":[{' not in unescaped:
+        if '"models":[' not in unescaped:
             continue
-        arr_start = unescaped.index('"models":[{') + 9
-        depth = 0
-        arr_end = arr_start
-        for i in range(arr_start, len(unescaped)):
-            if unescaped[i] == "[":
-                depth += 1
-            elif unescaped[i] == "]":
-                depth -= 1
-            if depth == 0:
-                arr_end = i + 1
-                break
-        candidate = unescaped[arr_start:arr_end]
-        # Prefer the chunk where models have intelligence_index populated
+
+        # Try to extract models array
         try:
-            probe = json.loads(candidate)
-            if probe and probe[0].get("intelligence_index") is not None:
-                models_json = candidate
-                break
-        except (json.JSONDecodeError, IndexError):
+            idx = unescaped.index('"models":[') + 9
+            depth = 0
+            end = idx
+            for i in range(idx, len(unescaped)):
+                if unescaped[i] == "[":
+                    depth += 1
+                elif unescaped[i] == "]":
+                    depth -= 1
+                    if depth == 0:
+                        end = i + 1
+                        break
+
+            models_json = unescaped[idx:end]
+            models = json.loads(models_json)
+
+            # Check what type of data this chunk has
+            if models and "creator" in models[0] and models_basic is None:
+                models_basic = models
+            elif models and "intelligenceIndex" in models[0] and models_metrics is None:
+                models_metrics = models
+        except (json.JSONDecodeError, KeyError, ValueError):
             continue
-        # Fallback: keep the first valid one
-        if models_json is None:
-            models_json = candidate
 
-    if models_json is None:
-        raise RuntimeError("Could not find models data in the page")
+    if models_metrics is None:
+        raise RuntimeError("Could not find models metrics data")
 
-    raw = json.loads(models_json)
+    # Use metrics data as primary (has all the info we need)
+    raw = models_metrics
 
-    # Sort by display_order and take top N
+    # If we have basic data, merge creator info
+    if models_basic:
+        basic_by_slug = {m["slug"]: m for m in models_basic}
+        for m in raw:
+            if m.get("slug") in basic_by_slug:
+                basic = basic_by_slug[m["slug"]]
+                if "creator" in basic and "creator" not in m:
+                    m["creator"] = basic["creator"]
+
+    # Sort by display_order if available, otherwise by intelligenceIndex
     raw.sort(key=lambda m: m.get("display_order", 9999))
+
     top = raw[:top_n]
 
     return [
         Model(
-            model_name=m["name"],
+            model_name=m.get("name", "Unknown"),
             context_window=m.get("context_window_tokens", 0),
-            creator=m.get("model_creators", {}).get("name", "Unknown"),
-            intelligence=m.get("intelligence_index", 0),
-            url=BASE_URL + m.get("model_url", ""),
+            creator=m.get("creator", {}).get("name")
+            if isinstance(m.get("creator"), dict)
+            else m.get("modelCreatorName", "Unknown"),
+            intelligence=m.get("intelligenceIndex", 0),
+            url=BASE_URL + "/models/" + m.get("slug", ""),
         )
         for m in top
     ]
