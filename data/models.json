@@ -1,12 +1,5 @@
 [
   {
-    "model_name": "GPT-5.3 Codex (xhigh)",
-    "context_window": 400000,
-    "creator": "OpenAI",
-    "intelligence": 53.97,
-    "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
-  },
-  {
     "model_name": "gpt-oss-120B (low)",
     "context_window": 131072,
     "creator": "OpenAI",
@@ -14,11 +7,25 @@
     "url": "https://artificialanalysis.ai/models/gpt-oss-120b-low"
   },
   {
+    "model_name": "GPT-5.4 (Non-reasoning)",
+    "context_window": 1050000,
+    "creator": "OpenAI",
+    "intelligence": 35.39,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4-non-reasoning"
+  },
+  {
     "model_name": "gpt-oss-20B (high)",
     "context_window": 131072,
     "creator": "OpenAI",
     "intelligence": 24.47,
     "url": "https://artificialanalysis.ai/models/gpt-oss-20b"
+  },
+  {
+    "model_name": "gpt-oss-20B (low)",
+    "context_window": 131072,
+    "creator": "OpenAI",
+    "intelligence": 20.79,
+    "url": "https://artificialanalysis.ai/models/gpt-oss-20b-low"
   },
   {
     "model_name": "o3",
@@ -42,13 +49,6 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
   },
   {
-    "model_name": "gpt-oss-20B (low)",
-    "context_window": 131072,
-    "creator": "OpenAI",
-    "intelligence": 20.79,
-    "url": "https://artificialanalysis.ai/models/gpt-oss-20b-low"
-  },
-  {
     "model_name": "GPT-5.4 nano (xhigh)",
     "context_window": 400000,
     "creator": "OpenAI",
@@ -63,25 +63,18 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-4-nano-non-reasoning"
   },
   {
+    "model_name": "GPT-5.3 Codex (xhigh)",
+    "context_window": 400000,
+    "creator": "OpenAI",
+    "intelligence": 53.97,
+    "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
+  },
+  {
     "model_name": "GPT-5.4 nano (medium)",
     "context_window": 400000,
     "creator": "OpenAI",
     "intelligence": 38.11,
     "url": "https://artificialanalysis.ai/models/gpt-5-4-nano-medium"
-  },
-  {
-    "model_name": "GPT-5.4 (Non-reasoning)",
-    "context_window": 1050000,
-    "creator": "OpenAI",
-    "intelligence": 35.39,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-non-reasoning"
-  },
-  {
-    "model_name": "GPT-5.4 (xhigh)",
-    "context_window": 1050000,
-    "creator": "OpenAI",
-    "intelligence": 57.17,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4"
   },
   {
     "model_name": "GPT-5.4 mini (Non-Reasoning)",
@@ -91,18 +84,25 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-4-mini-non-reasoning"
   },
   {
-    "model_name": "GPT-5.4 Pro (xhigh)",
-    "context_window": 1050000,
-    "creator": "OpenAI",
-    "intelligence": null,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-pro"
-  },
-  {
     "model_name": "GPT-5.4 mini (medium)",
     "context_window": 400000,
     "creator": "OpenAI",
     "intelligence": 37.73,
     "url": "https://artificialanalysis.ai/models/gpt-5-4-mini-medium"
+  },
+  {
+    "model_name": "GPT-5.4 (xhigh)",
+    "context_window": 1050000,
+    "creator": "OpenAI",
+    "intelligence": 57.17,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4"
+  },
+  {
+    "model_name": "GPT-5.4 Pro (xhigh)",
+    "context_window": 1050000,
+    "creator": "OpenAI",
+    "intelligence": null,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4-pro"
   },
   {
     "model_name": "Llama 3.3 Instruct 70B",
