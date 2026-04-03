@@ -35,25 +35,27 @@ def fetch_models(top_n: int = 20) -> list[Model]:
 
     for chunk in chunks:
         unescaped = chunk.encode().decode("unicode_escape")
-        if '"models":[' not in unescaped:
+        if '"models":' not in unescaped:
             continue
 
         # Try to extract models array
         try:
-            idx = unescaped.index('"models":[') + 9
-            depth = 0
-            end = idx
-            for i in range(idx, len(unescaped)):
-                if unescaped[i] == "[":
-                    depth += 1
-                elif unescaped[i] == "]":
-                    depth -= 1
-                    if depth == 0:
-                        end = i + 1
-                        break
+            idx = unescaped.index('"models":') + 9
+            # The value is an array starting with [{ or [
+            if unescaped[idx] == "[":
+                depth = 0
+                end = idx
+                for i in range(idx, len(unescaped)):
+                    if unescaped[i] == "[":
+                        depth += 1
+                    elif unescaped[i] == "]":
+                        depth -= 1
+                        if depth == 0:
+                            end = i + 1
+                            break
 
-            models_json = unescaped[idx:end]
-            models = json.loads(models_json)
+                models_json = unescaped[idx:end]
+                models = json.loads(models_json)
 
             # Check what type of data this chunk has
             if models and "creator" in models[0] and models_basic is None:
@@ -78,8 +80,8 @@ def fetch_models(top_n: int = 20) -> list[Model]:
                 if "creator" in basic and "creator" not in m:
                     m["creator"] = basic["creator"]
 
-    # Sort by display_order if available, otherwise by intelligenceIndex
-    raw.sort(key=lambda m: m.get("display_order", 9999))
+    # Sort by intelligenceIndex (descending) to match the visual leaderboard
+    raw.sort(key=lambda m: m.get("intelligenceIndex") or 0, reverse=True)
 
     top = raw[:top_n]
 
