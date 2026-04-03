@@ -1,17 +1,24 @@
 [
   {
-    "model_name": "Qwen3.5 Omni Plus",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 38.63,
-    "url": "https://artificialanalysis.ai/models/qwen3-5-omni-plus"
-  },
-  {
-    "model_name": "Gemma 4 26B A4B (Reasoning)",
+    "model_name": "Gemini 3.1 Pro Preview",
     "context_window": 0,
     "creator": "Google",
-    "intelligence": null,
-    "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b-it"
+    "intelligence": 57.18,
+    "url": "https://artificialanalysis.ai/models/gemini-3-1-pro-preview"
+  },
+  {
+    "model_name": "GPT-5.4 (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 57.17,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4"
+  },
+  {
+    "model_name": "GPT-5.3 Codex (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 53.97,
+    "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
     "model_name": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
@@ -21,109 +28,18 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
   },
   {
-    "model_name": "Qwen3.5 397B A17B (Reasoning)",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 45.05,
-    "url": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b"
-  },
-  {
-    "model_name": "Claude 4 Sonnet (Non-reasoning)",
+    "model_name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 33,
-    "url": "https://artificialanalysis.ai/models/claude-4-sonnet"
+    "intelligence": 51.72,
+    "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
-    "model_name": "Grok 4 Fast (Reasoning)",
-    "context_window": 0,
-    "creator": "xAI",
-    "intelligence": 35.06,
-    "url": "https://artificialanalysis.ai/models/grok-4-fast-reasoning"
-  },
-  {
-    "model_name": "MiniMax-M2.7",
-    "context_window": 0,
-    "creator": "MiniMax",
-    "intelligence": 49.62,
-    "url": "https://artificialanalysis.ai/models/minimax-m2-7"
-  },
-  {
-    "model_name": "Claude 4.5 Sonnet (Reasoning)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 43.03,
-    "url": "https://artificialanalysis.ai/models/claude-4-5-sonnet-thinking"
-  },
-  {
-    "model_name": "gpt-oss-20B (high)",
+    "model_name": "GPT-5.2 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 24.47,
-    "url": "https://artificialanalysis.ai/models/gpt-oss-20b"
-  },
-  {
-    "model_name": "EXAONE 4.0 32B (Non-reasoning)",
-    "context_window": 0,
-    "creator": "LG AI Research",
-    "intelligence": 11.66,
-    "url": "https://artificialanalysis.ai/models/exaone-4-0-32b"
-  },
-  {
-    "model_name": "GPT-5.4 (Non-reasoning)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 35.39,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-non-reasoning"
-  },
-  {
-    "model_name": "GPT-5.4 mini (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 48.1,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
-  },
-  {
-    "model_name": "Claude Opus 4.5 (Non-reasoning)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 43.09,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-5"
-  },
-  {
-    "model_name": "GPT-5.2 (medium)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 46.64,
-    "url": "https://artificialanalysis.ai/models/gpt-5-2-medium"
-  },
-  {
-    "model_name": "Kimi K2 Thinking",
-    "context_window": 0,
-    "creator": "Kimi",
-    "intelligence": 40.89,
-    "url": "https://artificialanalysis.ai/models/kimi-k2-thinking"
-  },
-  {
-    "model_name": "Gemma 3 4B Instruct",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": 6.3,
-    "url": "https://artificialanalysis.ai/models/gemma-3-4b"
-  },
-  {
-    "model_name": "GPT-5.4 Pro (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": null,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-pro"
-  },
-  {
-    "model_name": "Gemini 3 Deep Think",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": null,
-    "url": "https://artificialanalysis.ai/models/gemini-3-deep-think"
+    "intelligence": 51.28,
+    "url": "https://artificialanalysis.ai/models/gpt-5-2"
   },
   {
     "model_name": "GLM-5 (Reasoning)",
@@ -133,10 +49,94 @@
     "url": "https://artificialanalysis.ai/models/glm-5"
   },
   {
-    "model_name": "Qwen3 30B A3B (Reasoning)",
+    "model_name": "Claude Opus 4.5 (Reasoning)",
     "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 15.28,
-    "url": "https://artificialanalysis.ai/models/qwen3-30b-a3b-instruct-reasoning"
+    "creator": "Anthropic",
+    "intelligence": 49.73,
+    "url": "https://artificialanalysis.ai/models/claude-opus-4-5-thinking"
+  },
+  {
+    "model_name": "MiniMax-M2.7",
+    "context_window": 0,
+    "creator": "MiniMax",
+    "intelligence": 49.62,
+    "url": "https://artificialanalysis.ai/models/minimax-m2-7"
+  },
+  {
+    "model_name": "MiMo-V2-Pro",
+    "context_window": 0,
+    "creator": "Xiaomi",
+    "intelligence": 49.2,
+    "url": "https://artificialanalysis.ai/models/mimo-v2-pro"
+  },
+  {
+    "model_name": "GPT-5.2 Codex (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 49.03,
+    "url": "https://artificialanalysis.ai/models/gpt-5-2-codex"
+  },
+  {
+    "model_name": "Grok 4.20 Beta 0309 (Reasoning)",
+    "context_window": 0,
+    "creator": "xAI",
+    "intelligence": 48.48,
+    "url": "https://artificialanalysis.ai/models/grok-4-20"
+  },
+  {
+    "model_name": "Gemini 3 Pro Preview (high)",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 48.39,
+    "url": "https://artificialanalysis.ai/models/gemini-3-pro"
+  },
+  {
+    "model_name": "GPT-5.4 mini (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 48.1,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
+  },
+  {
+    "model_name": "GPT-5.1 (high)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 47.7,
+    "url": "https://artificialanalysis.ai/models/gpt-5-1"
+  },
+  {
+    "model_name": "Kimi K2.5 (Reasoning)",
+    "context_window": 0,
+    "creator": "Kimi",
+    "intelligence": 46.81,
+    "url": "https://artificialanalysis.ai/models/kimi-k2-5"
+  },
+  {
+    "model_name": "GLM-5-Turbo",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 46.76,
+    "url": "https://artificialanalysis.ai/models/glm-5-turbo"
+  },
+  {
+    "model_name": "GPT-5.2 (medium)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 46.64,
+    "url": "https://artificialanalysis.ai/models/gpt-5-2-medium"
+  },
+  {
+    "model_name": "Claude Opus 4.6 (Non-reasoning, High Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 46.46,
+    "url": "https://artificialanalysis.ai/models/claude-opus-4-6"
+  },
+  {
+    "model_name": "Gemini 3 Flash Preview (Reasoning)",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 46.43,
+    "url": "https://artificialanalysis.ai/models/gemini-3-flash-reasoning"
   }
 ]
