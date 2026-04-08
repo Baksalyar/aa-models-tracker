@@ -28,6 +28,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
   },
   {
+    "model_name": "Muse Spark",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 52.15,
+    "url": "https://artificialanalysis.ai/models/muse-spark"
+  },
+  {
     "model_name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -35,18 +42,18 @@
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
-    "model_name": "GLM-5.1 (Reasoning)",
-    "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 51.28,
-    "url": "https://artificialanalysis.ai/models/glm-5-1"
-  },
-  {
     "model_name": "GPT-5.2 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 51.28,
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
+  },
+  {
+    "model_name": "GLM-5.1 (Reasoning)",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 51.28,
+    "url": "https://artificialanalysis.ai/models/glm-5-1"
   },
   {
     "model_name": "Qwen3.6 Plus",
@@ -131,12 +138,5 @@
     "creator": "Kimi",
     "intelligence": 46.81,
     "url": "https://artificialanalysis.ai/models/kimi-k2-5"
-  },
-  {
-    "model_name": "GLM-5-Turbo",
-    "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 46.76,
-    "url": "https://artificialanalysis.ai/models/glm-5-turbo"
   }
 ]
