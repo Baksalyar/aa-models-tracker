@@ -49,6 +49,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
   },
   {
+    "model_name": "Qwen3.6 Plus",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 49.98,
+    "url": "https://artificialanalysis.ai/models/qwen3-6-plus"
+  },
+  {
     "model_name": "GLM-5 (Reasoning)",
     "context_window": 0,
     "creator": "Z AI",
@@ -70,6 +77,13 @@
     "url": "https://artificialanalysis.ai/models/minimax-m2-7"
   },
   {
+    "model_name": "Grok 4.20 0309 v2 (Reasoning)",
+    "context_window": 0,
+    "creator": "xAI",
+    "intelligence": 49.33,
+    "url": "https://artificialanalysis.ai/models/grok-4-20"
+  },
+  {
     "model_name": "MiMo-V2-Pro",
     "context_window": 0,
     "creator": "Xiaomi",
@@ -84,11 +98,11 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-2-codex"
   },
   {
-    "model_name": "Grok 4.20 Beta 0309 (Reasoning)",
+    "model_name": "Grok 4.20 0309 (Reasoning)",
     "context_window": 0,
     "creator": "xAI",
     "intelligence": 48.48,
-    "url": "https://artificialanalysis.ai/models/grok-4-20"
+    "url": "https://artificialanalysis.ai/models/grok-4-20-0309"
   },
   {
     "model_name": "Gemini 3 Pro Preview (high)",
@@ -124,19 +138,5 @@
     "creator": "Z AI",
     "intelligence": 46.76,
     "url": "https://artificialanalysis.ai/models/glm-5-turbo"
-  },
-  {
-    "model_name": "GPT-5.2 (medium)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 46.64,
-    "url": "https://artificialanalysis.ai/models/gpt-5-2-medium"
-  },
-  {
-    "model_name": "Claude Opus 4.6 (Non-reasoning, High Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 46.46,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-6"
   }
 ]
