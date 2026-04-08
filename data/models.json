@@ -35,6 +35,13 @@
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
+    "model_name": "GLM-5.1 (Reasoning)",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 51.28,
+    "url": "https://artificialanalysis.ai/models/glm-5-1"
+  },
+  {
     "model_name": "GPT-5.2 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 46.46,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6"
-  },
-  {
-    "model_name": "Gemini 3 Flash Preview (Reasoning)",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": 46.43,
-    "url": "https://artificialanalysis.ai/models/gemini-3-flash-reasoning"
   }
 ]
