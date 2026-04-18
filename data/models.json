@@ -1,5 +1,12 @@
 [
   {
+    "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 57.28,
+    "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
+  },
+  {
     "model_name": "Gemini 3.1 Pro Preview",
     "context_window": 0,
     "creator": "Google",
@@ -10,14 +17,14 @@
     "model_name": "GPT-5.4 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 57.17,
+    "intelligence": 56.8,
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
   },
   {
     "model_name": "GPT-5.3 Codex (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 53.97,
+    "intelligence": 53.56,
     "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
@@ -42,18 +49,18 @@
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
+    "model_name": "GLM-5.1 (Reasoning)",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 51.41,
+    "url": "https://artificialanalysis.ai/models/glm-5-1"
+  },
+  {
     "model_name": "GPT-5.2 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 51.28,
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
-  },
-  {
-    "model_name": "GLM-5.1 (Reasoning)",
-    "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 51.28,
-    "url": "https://artificialanalysis.ai/models/glm-5-1"
   },
   {
     "model_name": "Qwen3.6 Plus",
@@ -105,6 +112,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-2-codex"
   },
   {
+    "model_name": "GPT-5.4 mini (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 48.9,
+    "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
+  },
+  {
     "model_name": "Grok 4.20 0309 (Reasoning)",
     "context_window": 0,
     "creator": "xAI",
@@ -119,24 +133,10 @@
     "url": "https://artificialanalysis.ai/models/gemini-3-pro"
   },
   {
-    "model_name": "GPT-5.4 mini (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 48.1,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
-  },
-  {
     "model_name": "GPT-5.1 (high)",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 47.7,
     "url": "https://artificialanalysis.ai/models/gpt-5-1"
-  },
-  {
-    "model_name": "Kimi K2.5 (Reasoning)",
-    "context_window": 0,
-    "creator": "Kimi",
-    "intelligence": 46.81,
-    "url": "https://artificialanalysis.ai/models/kimi-k2-5"
   }
 ]
