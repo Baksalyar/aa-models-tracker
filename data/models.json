@@ -42,6 +42,13 @@
     "url": "https://artificialanalysis.ai/models/muse-spark"
   },
   {
+    "model_name": "Qwen3.6 Max Preview",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 51.81,
+    "url": "https://artificialanalysis.ai/models/qwen3-6-max"
+  },
+  {
     "model_name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Google",
     "intelligence": 48.39,
     "url": "https://artificialanalysis.ai/models/gemini-3-pro"
-  },
-  {
-    "model_name": "GPT-5.1 (high)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 47.7,
-    "url": "https://artificialanalysis.ai/models/gpt-5-1"
   }
 ]
