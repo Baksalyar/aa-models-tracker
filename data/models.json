@@ -21,6 +21,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
   },
   {
+    "model_name": "Kimi K2.6",
+    "context_window": 0,
+    "creator": "Kimi",
+    "intelligence": 53.9,
+    "url": "https://artificialanalysis.ai/models/kimi-k2-6"
+  },
+  {
     "model_name": "GPT-5.3 Codex (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "xAI",
     "intelligence": 48.48,
     "url": "https://artificialanalysis.ai/models/grok-4-20-0309"
-  },
-  {
-    "model_name": "Gemini 3 Pro Preview (high)",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": 48.39,
-    "url": "https://artificialanalysis.ai/models/gemini-3-pro"
   }
 ]
