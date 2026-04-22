@@ -49,6 +49,13 @@
     "url": "https://artificialanalysis.ai/models/muse-spark"
   },
   {
+    "model_name": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 51.82,
+    "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
+  },
+  {
     "model_name": "Qwen3.6 Max Preview",
     "context_window": 0,
     "creator": "Alibaba",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 48.9,
     "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
-  },
-  {
-    "model_name": "Grok 4.20 0309 (Reasoning)",
-    "context_window": 0,
-    "creator": "xAI",
-    "intelligence": 48.48,
-    "url": "https://artificialanalysis.ai/models/grok-4-20-0309"
   }
 ]
