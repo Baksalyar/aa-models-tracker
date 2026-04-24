@@ -1,5 +1,19 @@
 [
   {
+    "model_name": "GPT-5.5 (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 60.24,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5"
+  },
+  {
+    "model_name": "GPT-5.5 (high)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 58.87,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5-high"
+  },
+  {
     "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -19,6 +33,13 @@
     "creator": "OpenAI",
     "intelligence": 56.8,
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
+  },
+  {
+    "model_name": "GPT-5.5 (medium)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 56.71,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
   },
   {
     "model_name": "Kimi K2.6",
@@ -91,6 +112,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
   },
   {
+    "model_name": "GPT-5.5 (low)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 50.78,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
+  },
+  {
     "model_name": "Qwen3.6 Plus",
     "context_window": 0,
     "creator": "Alibaba",
@@ -110,33 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 49.73,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-5-thinking"
-  },
-  {
-    "model_name": "MiniMax-M2.7",
-    "context_window": 0,
-    "creator": "MiniMax",
-    "intelligence": 49.62,
-    "url": "https://artificialanalysis.ai/models/minimax-m2-7"
-  },
-  {
-    "model_name": "Grok 4.20 0309 v2 (Reasoning)",
-    "context_window": 0,
-    "creator": "xAI",
-    "intelligence": 49.33,
-    "url": "https://artificialanalysis.ai/models/grok-4-20"
-  },
-  {
-    "model_name": "MiMo-V2-Pro",
-    "context_window": 0,
-    "creator": "Xiaomi",
-    "intelligence": 49.2,
-    "url": "https://artificialanalysis.ai/models/mimo-v2-pro"
-  },
-  {
-    "model_name": "GPT-5.2 Codex (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 49.03,
-    "url": "https://artificialanalysis.ai/models/gpt-5-2-codex"
   }
 ]
