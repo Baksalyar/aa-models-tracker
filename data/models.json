@@ -98,6 +98,13 @@
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
+    "model_name": "DeepSeek V4 Pro (Reasoning, Max Effort)",
+    "context_window": 0,
+    "creator": "DeepSeek",
+    "intelligence": 51.51,
+    "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
+  },
+  {
     "model_name": "GLM-5.1 (Reasoning)",
     "context_window": 0,
     "creator": "Z AI",
@@ -126,17 +133,10 @@
     "url": "https://artificialanalysis.ai/models/qwen3-6-plus"
   },
   {
-    "model_name": "GLM-5 (Reasoning)",
+    "model_name": "DeepSeek V4 Pro (Reasoning, High Effort)",
     "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 49.77,
-    "url": "https://artificialanalysis.ai/models/glm-5"
-  },
-  {
-    "model_name": "Claude Opus 4.5 (Reasoning)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 49.73,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-5-thinking"
+    "creator": "DeepSeek",
+    "intelligence": 49.79,
+    "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-high"
   }
 ]
