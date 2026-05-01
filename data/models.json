@@ -63,6 +63,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
+    "model_name": "Grok 4.3",
+    "context_window": 0,
+    "creator": "xAI",
+    "intelligence": 53.2,
+    "url": "https://artificialanalysis.ai/models/grok-4-3"
+  },
+  {
     "model_name": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Alibaba",
     "intelligence": 49.98,
     "url": "https://artificialanalysis.ai/models/qwen3-6-plus"
-  },
-  {
-    "model_name": "DeepSeek V4 Pro (Reasoning, High Effort)",
-    "context_window": 0,
-    "creator": "DeepSeek",
-    "intelligence": 49.79,
-    "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-high"
   }
 ]
