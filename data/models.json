@@ -3,140 +3,140 @@
     "model_name": "GPT-5.5 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 60.24,
+    "intelligence": 60.2375549867282,
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
   },
   {
     "model_name": "GPT-5.5 (high)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 58.87,
+    "intelligence": 58.8680908633507,
     "url": "https://artificialanalysis.ai/models/gpt-5-5-high"
   },
   {
     "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 57.28,
+    "intelligence": 57.277499136068,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
   },
   {
     "model_name": "Gemini 3.1 Pro Preview",
     "context_window": 0,
     "creator": "Google",
-    "intelligence": 57.18,
+    "intelligence": 57.1754980007686,
     "url": "https://artificialanalysis.ai/models/gemini-3-1-pro-preview"
   },
   {
     "model_name": "GPT-5.4 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 56.8,
+    "intelligence": 56.7997233488278,
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
   },
   {
     "model_name": "GPT-5.5 (medium)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 56.71,
+    "intelligence": 56.7109756642988,
     "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
+  },
+  {
+    "model_name": "Gemini 3.5 Flash",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 55.328982440618,
+    "url": "https://artificialanalysis.ai/models/gemini-3-5-flash"
   },
   {
     "model_name": "Kimi K2.6",
     "context_window": 0,
     "creator": "Kimi",
-    "intelligence": 53.9,
+    "intelligence": 53.904517585423,
     "url": "https://artificialanalysis.ai/models/kimi-k2-6"
   },
   {
     "model_name": "MiMo-V2.5-Pro",
     "context_window": 0,
     "creator": "Xiaomi",
-    "intelligence": 53.83,
+    "intelligence": 53.828651261937,
     "url": "https://artificialanalysis.ai/models/mimo-v2-5-pro"
   },
   {
     "model_name": "GPT-5.3 Codex (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 53.56,
+    "intelligence": 53.5605490018319,
     "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
-    "model_name": "Grok 4.3",
+    "model_name": "Grok 4.3 (high)",
     "context_window": 0,
     "creator": "xAI",
-    "intelligence": 53.2,
+    "intelligence": 53.1964261580552,
     "url": "https://artificialanalysis.ai/models/grok-4-3"
   },
   {
     "model_name": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 52.95,
+    "intelligence": 52.9491806522587,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
   },
   {
     "model_name": "Muse Spark",
     "context_window": 0,
     "creator": "Meta",
-    "intelligence": 52.15,
+    "intelligence": 52.153729414616,
     "url": "https://artificialanalysis.ai/models/muse-spark"
   },
   {
     "model_name": "Claude Opus 4.7 (Non-reasoning, High Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 51.82,
+    "intelligence": 51.8213546973954,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
   },
   {
     "model_name": "Qwen3.6 Max Preview",
     "context_window": 0,
     "creator": "Alibaba",
-    "intelligence": 51.81,
+    "intelligence": 51.8140335251184,
     "url": "https://artificialanalysis.ai/models/qwen3-6-max"
   },
   {
     "model_name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 51.72,
+    "intelligence": 51.7186805816809,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   },
   {
     "model_name": "DeepSeek V4 Pro (Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "DeepSeek",
-    "intelligence": 51.51,
+    "intelligence": 51.5094430539975,
     "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
   },
   {
     "model_name": "GLM-5.1 (Reasoning)",
     "context_window": 0,
     "creator": "Z AI",
-    "intelligence": 51.41,
+    "intelligence": 51.4080747547317,
     "url": "https://artificialanalysis.ai/models/glm-5-1"
   },
   {
     "model_name": "GPT-5.2 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 51.28,
+    "intelligence": 51.2765852164605,
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
   },
   {
     "model_name": "GPT-5.5 (low)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 50.78,
+    "intelligence": 50.7794110370147,
     "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
-  },
-  {
-    "model_name": "Qwen3.6 Plus",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 49.98,
-    "url": "https://artificialanalysis.ai/models/qwen3-6-plus"
   }
 ]
