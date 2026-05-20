@@ -42,7 +42,14 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
   },
   {
-    "model_name": "Gemini 3.5 Flash",
+    "model_name": "Qwen3.7 Max",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 56.5844517545098,
+    "url": "https://artificialanalysis.ai/models/qwen3-7-max"
+  },
+  {
+    "model_name": "Gemini 3.5 Flash (high)",
     "context_window": 0,
     "creator": "Google",
     "intelligence": 55.328982440618,
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 51.2765852164605,
     "url": "https://artificialanalysis.ai/models/gpt-5-2"
-  },
-  {
-    "model_name": "GPT-5.5 (low)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 50.7794110370147,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
   }
 ]
