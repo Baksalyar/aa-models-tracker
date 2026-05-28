@@ -56,6 +56,13 @@
     "url": "https://artificialanalysis.ai/models/gemini-3-5-flash"
   },
   {
+    "model_name": "Gemini 3.5 Flash (medium)",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 54.783342301797,
+    "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-medium"
+  },
+  {
     "model_name": "Kimi K2.6",
     "context_window": 0,
     "creator": "Kimi",
@@ -131,12 +138,5 @@
     "creator": "Z AI",
     "intelligence": 51.4080747547317,
     "url": "https://artificialanalysis.ai/models/glm-5-1"
-  },
-  {
-    "model_name": "GPT-5.2 (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 51.2765852164605,
-    "url": "https://artificialanalysis.ai/models/gpt-5-2"
   }
 ]
