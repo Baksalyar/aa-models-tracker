@@ -91,6 +91,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
+    "model_name": "Qwen3.7 Plus",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 53.2528102257147,
+    "url": "https://artificialanalysis.ai/models/qwen3-7-plus"
+  },
+  {
     "model_name": "Grok 4.3 (high)",
     "context_window": 0,
     "creator": "xAI",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 51.7186805816809,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
-  },
-  {
-    "model_name": "DeepSeek V4 Pro (Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "DeepSeek",
-    "intelligence": 51.5094430539975,
-    "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
   }
 ]
