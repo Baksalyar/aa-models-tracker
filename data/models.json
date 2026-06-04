@@ -70,6 +70,13 @@
     "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-medium"
   },
   {
+    "model_name": "MiniMax-M3",
+    "context_window": 0,
+    "creator": "MiniMax",
+    "intelligence": 54.6747796156564,
+    "url": "https://artificialanalysis.ai/models/minimax-m3"
+  },
+  {
     "model_name": "Kimi K2.6",
     "context_window": 0,
     "creator": "Kimi",
@@ -131,12 +138,5 @@
     "creator": "Alibaba",
     "intelligence": 51.8140335251184,
     "url": "https://artificialanalysis.ai/models/qwen3-6-max"
-  },
-  {
-    "model_name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 51.7186805816809,
-    "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
   }
 ]
