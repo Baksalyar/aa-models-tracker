@@ -1,5 +1,12 @@
 [
   {
+    "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 64.883928141436,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5"
+  },
+  {
     "model_name": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 51.8213546973954,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
-  },
-  {
-    "model_name": "Qwen3.6 Max Preview",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 51.8140335251184,
-    "url": "https://artificialanalysis.ai/models/qwen3-6-max"
   }
 ]
