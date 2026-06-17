@@ -42,6 +42,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
   },
   {
+    "model_name": "GLM-5.2 (max)",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 50.6663591160109,
+    "url": "https://artificialanalysis.ai/models/glm-5-2"
+  },
+  {
     "model_name": "Gemini 3.5 Flash (high)",
     "context_window": 0,
     "creator": "Google",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 42.6803699085253,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
-  },
-  {
-    "model_name": "MiMo-V2.5-Pro",
-    "context_window": 0,
-    "creator": "Xiaomi",
-    "intelligence": 42.2394366693508,
-    "url": "https://artificialanalysis.ai/models/mimo-v2-5-pro"
   }
 ]
