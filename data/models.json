@@ -45,8 +45,15 @@
     "model_name": "GLM-5.2 (max)",
     "context_window": 0,
     "creator": "Z AI",
-    "intelligence": 50.6663591160109,
+    "intelligence": 51.0858347714416,
     "url": "https://artificialanalysis.ai/models/glm-5-2"
+  },
+  {
+    "model_name": "GPT-5.5 (medium)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 50.4090068672092,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
   },
   {
     "model_name": "Gemini 3.5 Flash (high)",
@@ -61,13 +68,6 @@
     "creator": "Anthropic",
     "intelligence": 47.2100024360452,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
-  },
-  {
-    "model_name": "GPT-5.5 (medium)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 47.1447014229694,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
   },
   {
     "model_name": "Gemini 3.1 Pro Preview",
@@ -119,6 +119,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
   },
   {
+    "model_name": "GPT-5.5 (low)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 43.4604883103599,
+    "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
+  },
+  {
     "model_name": "Muse Spark",
     "context_window": 0,
     "creator": "Meta",
@@ -131,12 +138,5 @@
     "creator": "Kimi",
     "intelligence": 42.8413910763059,
     "url": "https://artificialanalysis.ai/models/kimi-k2-6"
-  },
-  {
-    "model_name": "Claude Opus 4.7 (Non-reasoning, High Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 42.6803699085253,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
   }
 ]
