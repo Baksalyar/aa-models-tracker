@@ -119,6 +119,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
   },
   {
+    "model_name": "Kimi K2.6",
+    "context_window": 0,
+    "creator": "Kimi",
+    "intelligence": 44.2196682298639,
+    "url": "https://artificialanalysis.ai/models/kimi-k2-6"
+  },
+  {
     "model_name": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 43.4604883103599,
     "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
-  },
-  {
-    "model_name": "Muse Spark",
-    "context_window": 0,
-    "creator": "Meta",
-    "intelligence": 43.0555563074727,
-    "url": "https://artificialanalysis.ai/models/muse-spark"
   }
 ]
