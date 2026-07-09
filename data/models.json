@@ -21,6 +21,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
   },
   {
+    "model_name": "Grok 4.5 (high)",
+    "context_window": 0,
+    "creator": "SpaceXAI",
+    "intelligence": 53.8265951657731,
+    "url": "https://artificialanalysis.ai/models/grok-4-5"
+  },
+  {
     "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 43.7100998174865,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
-  },
-  {
-    "model_name": "GPT-5.5 (low)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 43.4604883103599,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
   }
 ]
