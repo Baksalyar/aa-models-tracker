@@ -112,6 +112,13 @@
     "url": "https://artificialanalysis.ai/models/glm-5-2"
   },
   {
+    "model_name": "Muse Spark 1.1 (xhigh)",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 50.6229899483333,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-1"
+  },
+  {
     "model_name": "GPT-5.5 (medium)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 49.444040367728,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-low"
-  },
-  {
-    "model_name": "GPT-5.6 Luna (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 49.0677386549324,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-xhigh"
   }
 ]
