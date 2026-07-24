@@ -32,10 +32,6 @@ def _add_old_entries(fg: FeedGenerator) -> None:
 
     # Find all item elements (handle RSS namespace if present)
     items = root.findall(".//item")
-    if not items:
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
-        items = root.findall(".//item")
-
     for item in items:
         title = item.findtext("title", "")
         link = item.findtext("link", "")

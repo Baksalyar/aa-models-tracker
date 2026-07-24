@@ -11,6 +11,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      BEAN_EVENT_INGEST_URL: ${{ secrets.BEAN_EVENT_INGEST_URL }}
+      BEAN_EVENT_TOKEN: ${{ secrets.BEAN_EVENT_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,15 +42,39 @@ jobs:
           PY
 
       - name: Run tracker
-        run: poetry run models-track
+        id: tracker
+        run: |
+          set +e
+          poetry run models-track
+          status=$?
+          if [ "$status" -eq 0 ]; then
+            echo "tracker_status=success" >> "$GITHUB_OUTPUT"
+          else
+            echo "tracker_status=failed" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
 
       - name: Commit and push changes
+        id: commit
+        if: ${{ steps.tracker.outputs.tracker_status == 'success' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/feed.xml data/models.json
+          git add data/feed.xml data/models.json data/history.jsonl
           git diff --quiet && git diff --staged --quiet || git commit -m "Update feed [skip ci]"
           git push
+
+      - name: Report status to BeanDashboard
+        if: ${{ always() }}
+        env:
+          BEAN_REPORT_TRACKER_STATUS: ${{ steps.tracker.outputs.tracker_status }}
+          BEAN_REPORT_COMMIT_STATUS: ${{ steps.commit.conclusion }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: poetry run python -m models_track.bean_reporter || true
+
+      - name: Fail unexpected run
+        if: ${{ always() && (steps.tracker.outputs.tracker_status != 'success' || steps.commit.conclusion == 'failure') }}
+        run: exit 1
 
       - name: Upload feed artifacts
         uses: actions/upload-artifact@v4

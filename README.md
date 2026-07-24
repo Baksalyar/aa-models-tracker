@@ -46,6 +46,10 @@ RSS entry format:
 
 GitHub Actions runs every 6 hours (cron `0 */6 * * *`) and can be triggered manually from the Actions tab.
 
+Each run reports a heartbeat to BeanDashboard when the repository secrets
+`BEAN_EVENT_INGEST_URL` and `BEAN_EVENT_TOKEN` are configured. Reporting is
+best-effort and never hides a tracker or publishing failure.
+
 ## Development
 
 ```bash
