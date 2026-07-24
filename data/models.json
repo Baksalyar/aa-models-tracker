@@ -1,5 +1,19 @@
 [
   {
+    "model_name": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 60.6918740157091,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5"
+  },
+  {
+    "model_name": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 60.0681611916281,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-xhigh"
+  },
+  {
     "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -14,6 +28,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
   },
   {
+    "model_name": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 58.8641803200348,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-high"
+  },
+  {
     "model_name": "GPT-5.6 Sol (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -26,6 +47,13 @@
     "creator": "Kimi",
     "intelligence": 57.1123394372091,
     "url": "https://artificialanalysis.ai/models/kimi-k3"
+  },
+  {
+    "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 56.2806227158121,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
     "model_name": "GPT-5.6 Sol (high)",
@@ -110,33 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 51.2359331798034,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-luna"
-  },
-  {
-    "model_name": "GLM-5.2 (max)",
-    "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 51.0858347714416,
-    "url": "https://artificialanalysis.ai/models/glm-5-2"
-  },
-  {
-    "model_name": "Muse Spark 1.1 (xhigh)",
-    "context_window": 0,
-    "creator": "Meta",
-    "intelligence": 50.6229899483333,
-    "url": "https://artificialanalysis.ai/models/muse-spark-1-1"
-  },
-  {
-    "model_name": "GPT-5.5 (medium)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 50.4090068672092,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
-  },
-  {
-    "model_name": "Gemini 3.5 Flash (high)",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": 50.2034858842254,
-    "url": "https://artificialanalysis.ai/models/gemini-3-5-flash"
   }
 ]
