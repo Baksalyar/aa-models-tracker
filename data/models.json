@@ -42,7 +42,7 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
   },
   {
-    "model_name": "Kimi K3",
+    "model_name": "Kimi K3 (max)",
     "context_window": 0,
     "creator": "Kimi",
     "intelligence": 57.1123394372091,
@@ -105,6 +105,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
   },
   {
+    "model_name": "Qwen3.8 Max",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 53.3525237596674,
+    "url": "https://artificialanalysis.ai/models/qwen3-8-max"
+  },
+  {
     "model_name": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 51.4012420630147,
     "url": "https://artificialanalysis.ai/models/gpt-5-4"
-  },
-  {
-    "model_name": "GPT-5.6 Luna (max)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 51.2359331798034,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-luna"
   }
 ]
