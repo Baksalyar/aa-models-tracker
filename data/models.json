@@ -56,6 +56,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
+    "model_name": "Qwen3.8 Max",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 56.2170295599636,
+    "url": "https://artificialanalysis.ai/models/qwen3-8-max"
+  },
+  {
     "model_name": "GPT-5.6 Sol (high)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -82,6 +89,13 @@
     "creator": "OpenAI",
     "intelligence": 54.8375984166433,
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
+  },
+  {
+    "model_name": "Muse Spark 1.2 (xhigh)",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 54.0676608083419,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-2"
   },
   {
     "model_name": "Grok 4.5 (high)",
@@ -124,19 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 51.6046369461818,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-xhigh"
-  },
-  {
-    "model_name": "GPT-5.4 (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 51.4012420630147,
-    "url": "https://artificialanalysis.ai/models/gpt-5-4"
-  },
-  {
-    "model_name": "GPT-5.6 Luna (max)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 51.2359331798034,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-luna"
   }
 ]
