@@ -3,140 +3,140 @@
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 60.6918740157091,
+    "intelligence": 63.0532452071291,
     "url": "https://artificialanalysis.ai/models/claude-opus-5"
   },
   {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 60.0681611916281,
+    "intelligence": 62.52047429879,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-xhigh"
   },
   {
     "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 59.8606463217303,
+    "intelligence": 62.0726622017462,
     "url": "https://artificialanalysis.ai/models/claude-fable-5"
-  },
-  {
-    "model_name": "GPT-5.6 Sol (max)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 58.889831189723,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
   },
   {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 58.8641803200348,
+    "intelligence": 61.4751191473465,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-high"
   },
   {
-    "model_name": "GPT-5.6 Sol (xhigh)",
+    "model_name": "GPT-5.6 Sol (max)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 57.653836996095,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
+    "intelligence": 60.9298701329203,
+    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
   },
   {
     "model_name": "Kimi K3 (max)",
     "context_window": 0,
     "creator": "Kimi",
-    "intelligence": 57.1123394372091,
+    "intelligence": 59.6994671342592,
     "url": "https://artificialanalysis.ai/models/kimi-k3"
+  },
+  {
+    "model_name": "GPT-5.6 Sol (xhigh)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 59.0090363705536,
+    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
   },
   {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 56.2806227158121,
+    "intelligence": 58.6354597438038,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
     "model_name": "Qwen3.8 Max",
     "context_window": 0,
     "creator": "Alibaba",
-    "intelligence": 56.2170295599636,
+    "intelligence": 58.0774404479668,
     "url": "https://artificialanalysis.ai/models/qwen3-8-max"
   },
   {
     "model_name": "GPT-5.6 Sol (high)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 55.8665067971861,
+    "intelligence": 57.3317210962224,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-high"
   },
   {
     "model_name": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 55.6920406995495,
+    "intelligence": 57.3304158758428,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-8"
+  },
+  {
+    "model_name": "Muse Spark 1.2 (xhigh)",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 56.7615911905642,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-2"
   },
   {
     "model_name": "GPT-5.6 Terra (max)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 54.9528567569231,
+    "intelligence": 56.5755675890213,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-terra"
   },
   {
     "model_name": "GPT-5.5 (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 54.8375984166433,
+    "intelligence": 56.3066851860359,
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
-  },
-  {
-    "model_name": "Muse Spark 1.2 (xhigh)",
-    "context_window": 0,
-    "creator": "Meta",
-    "intelligence": 54.0676608083419,
-    "url": "https://artificialanalysis.ai/models/muse-spark-1-2"
   },
   {
     "model_name": "Grok 4.5 (high)",
     "context_window": 0,
     "creator": "SpaceXAI",
-    "intelligence": 53.8265951657731,
+    "intelligence": 55.7588993916902,
     "url": "https://artificialanalysis.ai/models/grok-4-5"
   },
   {
     "model_name": "GPT-5.6 Sol (medium)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 53.5888349532218,
+    "intelligence": 55.5729051710609,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-medium"
-  },
-  {
-    "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 53.5296569524586,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
   },
   {
     "model_name": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
-    "intelligence": 53.3500026989169,
+    "intelligence": 55.261211717405,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-5"
+  },
+  {
+    "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 54.9641493964167,
+    "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
   },
   {
     "model_name": "GPT-5.5 (high)",
     "context_window": 0,
     "creator": "OpenAI",
-    "intelligence": 53.1275095349873,
+    "intelligence": 54.6668082793663,
     "url": "https://artificialanalysis.ai/models/gpt-5-5-high"
   },
   {
-    "model_name": "GPT-5.6 Terra (xhigh)",
+    "model_name": "Muse Spark 1.1 (xhigh)",
     "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 51.6046369461818,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-xhigh"
+    "creator": "Meta",
+    "intelligence": 53.1989553356511,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-1"
   }
 ]
