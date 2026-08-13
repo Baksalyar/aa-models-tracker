@@ -105,6 +105,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
   },
   {
+    "model_name": "Gemini 3.7 Flash (high)",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 56.0301180773699,
+    "url": "https://artificialanalysis.ai/models/gemini-3-7-flash"
+  },
+  {
     "model_name": "Grok 4.5 (high)",
     "context_window": 0,
     "creator": "SpaceXAI",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 54.9641493964167,
     "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
-  },
-  {
-    "model_name": "GPT-5.5 (high)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 54.6668082793663,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5-high"
   }
 ]
