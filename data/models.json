@@ -70,6 +70,13 @@
     "url": "https://artificialanalysis.ai/models/qwen3-8-max"
   },
   {
+    "model_name": "Qwen3.8 2.4T A95B",
+    "context_window": 0,
+    "creator": "Alibaba",
+    "intelligence": 57.7043243271128,
+    "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
+  },
+  {
     "model_name": "GPT-5.6 Sol (high)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 55.261211717405,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-5"
-  },
-  {
-    "model_name": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 54.9641493964167,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
   }
 ]
