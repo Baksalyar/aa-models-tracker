@@ -49,6 +49,13 @@
     "url": "https://artificialanalysis.ai/models/kimi-k3"
   },
   {
+    "model_name": "GLM-5.3 (max)",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 59.5134408119521,
+    "url": "https://artificialanalysis.ai/models/glm-5-3"
+  },
+  {
     "model_name": "GPT-5.6 Sol (xhigh)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 55.5729051710609,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-medium"
-  },
-  {
-    "model_name": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 55.261211717405,
-    "url": "https://artificialanalysis.ai/models/claude-sonnet-5"
   }
 ]
