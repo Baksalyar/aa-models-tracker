@@ -42,6 +42,13 @@
     "url": "https://artificialanalysis.ai/models/grok-4-6"
   },
   {
+    "model_name": "Grok 4.6 (xhigh)",
+    "context_window": 0,
+    "creator": "SpaceXAI",
+    "intelligence": 60.0135565827745,
+    "url": "https://artificialanalysis.ai/models/grok-4-6-xhigh"
+  },
+  {
     "model_name": "Kimi K3 (max)",
     "context_window": 0,
     "creator": "Kimi",
@@ -61,6 +68,13 @@
     "creator": "OpenAI",
     "intelligence": 59.0090363705536,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
+  },
+  {
+    "model_name": "Grok 4.6 (medium)",
+    "context_window": 0,
+    "creator": "SpaceXAI",
+    "intelligence": 59.0064109828411,
+    "url": "https://artificialanalysis.ai/models/grok-4-6-medium"
   },
   {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
@@ -124,19 +138,5 @@
     "creator": "Google",
     "intelligence": 56.0301180773699,
     "url": "https://artificialanalysis.ai/models/gemini-3-7-flash"
-  },
-  {
-    "model_name": "Grok 4.5 (high)",
-    "context_window": 0,
-    "creator": "SpaceXAI",
-    "intelligence": 55.7588993916902,
-    "url": "https://artificialanalysis.ai/models/grok-4-5"
-  },
-  {
-    "model_name": "GPT-5.6 Sol (medium)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 55.5729051710609,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-medium"
   }
 ]
