@@ -98,6 +98,13 @@
     "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
   },
   {
+    "model_name": "GLM-5.3-Flash",
+    "context_window": 0,
+    "creator": "Z AI",
+    "intelligence": 57.4592004791323,
+    "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
+  },
+  {
     "model_name": "GPT-5.6 Sol (high)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 56.3066851860359,
     "url": "https://artificialanalysis.ai/models/gpt-5-5"
-  },
-  {
-    "model_name": "Gemini 3.7 Flash (high)",
-    "context_window": 0,
-    "creator": "Google",
-    "intelligence": 56.0301180773699,
-    "url": "https://artificialanalysis.ai/models/gemini-3-7-flash"
   }
 ]
