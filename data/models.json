@@ -1,5 +1,19 @@
 [
   {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 65.6528630094377,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
+  },
+  {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 64.8015742258595,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
+  },
+  {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -12,6 +26,13 @@
     "creator": "Anthropic",
     "intelligence": 62.52047429879,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-xhigh"
+  },
+  {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 62.4807148804427,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   },
   {
     "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
@@ -40,6 +61,13 @@
     "creator": "SpaceXAI",
     "intelligence": 60.92297113115,
     "url": "https://artificialanalysis.ai/models/grok-4-6"
+  },
+  {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 60.4752258852075,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
   },
   {
     "model_name": "Grok 4.6 (xhigh)",
@@ -84,6 +112,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 58.1486711176965,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
+  },
+  {
     "model_name": "Qwen3.8 Max",
     "context_window": 0,
     "creator": "Alibaba",
@@ -103,40 +138,5 @@
     "creator": "Z AI",
     "intelligence": 57.4592004791323,
     "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
-  },
-  {
-    "model_name": "GPT-5.6 Sol (high)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 57.3317210962224,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-high"
-  },
-  {
-    "model_name": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 57.3304158758428,
-    "url": "https://artificialanalysis.ai/models/claude-opus-4-8"
-  },
-  {
-    "model_name": "Muse Spark 1.2 (xhigh)",
-    "context_window": 0,
-    "creator": "Meta",
-    "intelligence": 56.7615911905642,
-    "url": "https://artificialanalysis.ai/models/muse-spark-1-2"
-  },
-  {
-    "model_name": "GPT-5.6 Terra (max)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 56.5755675890213,
-    "url": "https://artificialanalysis.ai/models/gpt-5-6-terra"
-  },
-  {
-    "model_name": "GPT-5.5 (xhigh)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 56.3066851860359,
-    "url": "https://artificialanalysis.ai/models/gpt-5-5"
   }
 ]
