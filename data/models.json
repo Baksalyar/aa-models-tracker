@@ -35,6 +35,13 @@
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   },
   {
+    "model_name": "Muse Spark 1.3 (max)",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 62.0885286541662,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
+  },
+  {
     "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -61,6 +68,13 @@
     "creator": "SpaceXAI",
     "intelligence": 60.92297113115,
     "url": "https://artificialanalysis.ai/models/grok-4-6"
+  },
+  {
+    "model_name": "Muse Spark 1.3 (xhigh)",
+    "context_window": 0,
+    "creator": "Meta",
+    "intelligence": 60.7780170551777,
+    "url": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh"
   },
   {
     "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
@@ -124,19 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 58.1486711176965,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
-  },
-  {
-    "model_name": "Qwen3.8 Max",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 58.0774404479668,
-    "url": "https://artificialanalysis.ai/models/qwen3-8-max"
-  },
-  {
-    "model_name": "Qwen3.8 2.4T A95B",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 57.7043243271128,
-    "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
   }
 ]
