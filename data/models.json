@@ -105,6 +105,13 @@
     "url": "https://artificialanalysis.ai/models/grok-4-6-medium"
   },
   {
+    "model_name": "Gemini 3.8 Flash (high)",
+    "context_window": 0,
+    "creator": "Google",
+    "intelligence": 58.679185261722,
+    "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+  },
+  {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Alibaba",
     "intelligence": 57.7043243271128,
     "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
-  },
-  {
-    "model_name": "GLM-5.3-Flash",
-    "context_window": 0,
-    "creator": "Z AI",
-    "intelligence": 57.4592004791323,
-    "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
   }
 ]
