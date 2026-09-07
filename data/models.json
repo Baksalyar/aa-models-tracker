@@ -7,11 +7,25 @@
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
   },
   {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 56.2440953839192,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
+  },
+  {
     "model_name": "GPT-6 Astra (max)",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 54.6573323423926,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra"
+  },
+  {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 54.455549030173,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   },
   {
     "model_name": "GPT-6 Astra (xhigh)",
@@ -26,13 +40,6 @@
     "creator": "Anthropic",
     "intelligence": 54.0539443539342,
     "url": "https://artificialanalysis.ai/models/claude-opus-5"
-  },
-  {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 53.8031695908873,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
   },
   {
     "model_name": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
@@ -63,6 +70,13 @@
     "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
   },
   {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 52.7647845522598,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
+  },
+  {
     "model_name": "GPT-6 Astra (medium)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -75,13 +89,6 @@
     "creator": "Anthropic",
     "intelligence": 52.0304414837434,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-high"
-  },
-  {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 51.6714916304855,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   },
   {
     "model_name": "Muse Spark 1.3 (xhigh)",
@@ -98,6 +105,13 @@
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
   },
   {
+    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 50.9066441310147,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
+  },
+  {
     "model_name": "Grok 4.6 (high)",
     "context_window": 0,
     "creator": "SpaceXAI",
@@ -112,11 +126,11 @@
     "url": "https://artificialanalysis.ai/models/kimi-k3"
   },
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "model_name": "Grok 4.6 (xhigh)",
     "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 49.8746761108501,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
+    "creator": "SpaceXAI",
+    "intelligence": 49.9161668826817,
+    "url": "https://artificialanalysis.ai/models/grok-4-6-xhigh"
   },
   {
     "model_name": "GPT-5.6 Sol (xhigh)",
@@ -124,19 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 49.8448226160266,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
-  },
-  {
-    "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-    "context_window": 0,
-    "creator": "Anthropic",
-    "intelligence": 49.5216376530066,
-    "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
-  },
-  {
-    "model_name": "Grok 4.6 (xhigh)",
-    "context_window": 0,
-    "creator": "SpaceXAI",
-    "intelligence": 49.3393938298214,
-    "url": "https://artificialanalysis.ai/models/grok-4-6-xhigh"
   }
 ]
