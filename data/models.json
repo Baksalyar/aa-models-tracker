@@ -133,10 +133,10 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
-    "model_name": "Qwen3.8 Max",
+    "model_name": "GLM-5.3 (max)",
     "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 44.5911811941828,
-    "url": "https://artificialanalysis.ai/models/qwen3-8-max"
+    "creator": "Z AI",
+    "intelligence": 44.855717385614,
+    "url": "https://artificialanalysis.ai/models/glm-5-3"
   }
 ]
