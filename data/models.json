@@ -1,142 +1,142 @@
 [
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 53.3737509623252,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
   },
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 53.1840337538944,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
   },
   {
-    "model_name": "GPT-6 Astra (max)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 52.814069395513,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra"
   },
   {
-    "model_name": "GPT-6 Astra (xhigh)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 52.5059027108782,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh"
   },
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 51.2094958852237,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   },
   {
-    "model_name": "GPT-6 Astra (high)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 51.0480721636152,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-high"
   },
   {
-    "model_name": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 50.7001865797629,
     "url": "https://artificialanalysis.ai/models/claude-opus-5"
   },
   {
-    "model_name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 49.6994452733378,
     "url": "https://artificialanalysis.ai/models/claude-fable-5"
   },
   {
-    "model_name": "GPT-6 Astra (medium)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 49.6685363034369,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-medium"
   },
   {
-    "model_name": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 49.6514552926939,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-xhigh"
   },
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 49.0591662609523,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
   },
   {
-    "model_name": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 48.2371932595908,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-high"
   },
   {
-    "model_name": "Muse Spark 1.3 (max)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Meta",
     "intelligence": 48.1690107719685,
     "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
   },
   {
-    "model_name": "GPT-5.6 Sol (max)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 47.0613568915036,
     "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
   },
   {
-    "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 47.0391672014862,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
   },
   {
-    "model_name": "GPT-6 Astra (low)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "OpenAI",
     "intelligence": 45.9944993120341,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-low"
   },
   {
-    "model_name": "GPT-6 Astra (Non-reasoning)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 45.1697751115741,
-    "url": "https://artificialanalysis.ai/models/gpt-6-astra-non-reasoning"
-  },
-  {
-    "model_name": "Muse Spark 1.3 (xhigh)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Meta",
     "intelligence": 45.1612216922226,
     "url": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh"
   },
   {
-    "model_name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Anthropic",
     "intelligence": 45.0575765420613,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
   },
   {
-    "model_name": "GLM-5.3 (max)",
+    "model_name": "Unknown",
     "context_window": 0,
     "creator": "Z AI",
     "intelligence": 44.855717385614,
     "url": "https://artificialanalysis.ai/models/glm-5-3"
+  },
+  {
+    "model_name": "Unknown",
+    "context_window": 0,
+    "creator": "SpaceXAI",
+    "intelligence": 44.4050073012592,
+    "url": "https://artificialanalysis.ai/models/grok-4-6"
   }
 ]
