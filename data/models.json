@@ -1,5 +1,26 @@
 [
   {
+    "model_name": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 57.6223698102963,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+  },
+  {
+    "model_name": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 55.9873505840139,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh"
+  },
+  {
+    "model_name": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 53.5831959822067,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high"
+  },
+  {
     "model_name": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
     "context_window": 0,
     "creator": "Anthropic",
@@ -26,6 +47,13 @@
     "creator": "OpenAI",
     "intelligence": 52.3863277108782,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh"
+  },
+  {
+    "model_name": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "context_window": 0,
+    "creator": "Anthropic",
+    "intelligence": 51.2434931792768,
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-5-medium"
   },
   {
     "model_name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
@@ -91,6 +119,13 @@
     "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
   },
   {
+    "model_name": "GPT-6 Sol (max)",
+    "context_window": 0,
+    "creator": "OpenAI",
+    "intelligence": 47.5276426437724,
+    "url": "https://artificialanalysis.ai/models/gpt-6-sol"
+  },
+  {
     "model_name": "GPT-5.6 Sol (max)",
     "context_window": 0,
     "creator": "OpenAI",
@@ -103,40 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 46.8163422014862,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
-  },
-  {
-    "model_name": "Grok 4.7 (xhigh)",
-    "context_window": 0,
-    "creator": "SpaceXAI",
-    "intelligence": 46.4465506302286,
-    "url": "https://artificialanalysis.ai/models/grok-4-7"
-  },
-  {
-    "model_name": "Grok 4.7 (high)",
-    "context_window": 0,
-    "creator": "SpaceXAI",
-    "intelligence": 46.3321770885625,
-    "url": "https://artificialanalysis.ai/models/grok-4-7-high"
-  },
-  {
-    "model_name": "MiMo-V2.6-Pro",
-    "context_window": 0,
-    "creator": "Xiaomi",
-    "intelligence": 46.3242065310383,
-    "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
-  },
-  {
-    "model_name": "GPT-6 Astra (low)",
-    "context_window": 0,
-    "creator": "OpenAI",
-    "intelligence": 45.7819243120341,
-    "url": "https://artificialanalysis.ai/models/gpt-6-astra-low"
-  },
-  {
-    "model_name": "Qwen3.8 Max (0902)",
-    "context_window": 0,
-    "creator": "Alibaba",
-    "intelligence": 45.4152084980521,
-    "url": "https://artificialanalysis.ai/models/qwen3-8-max"
   }
 ]
