@@ -14,6 +14,13 @@
     "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
   },
   {
+    "model_name": "Gemini 4 Carbon (Medium)",
+    "context_window": 1000000,
+    "creator": "Google",
+    "intelligence": 57.7087824022788,
+    "url": "https://artificialanalysis.ai/models/gemini-4-carbon-medium"
+  },
+  {
     "model_name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
     "context_window": 1000000,
     "creator": "Anthropic",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 48.0581024960691,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-5-medium"
-  },
-  {
-    "model_name": "Claude Fable 5.1 (High, Default Fallback)",
-    "context_window": 1000000,
-    "creator": "Anthropic",
-    "intelligence": 47.024988245604,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
   }
 ]
