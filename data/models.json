@@ -63,6 +63,13 @@
     "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
   },
   {
+    "model_name": "Gemini 4 Carbon (Low)",
+    "context_window": 1000000,
+    "creator": "Google",
+    "intelligence": 53.7206114502924,
+    "url": "https://artificialanalysis.ai/models/gemini-4-carbon-low"
+  },
+  {
     "model_name": "GPT-6.1 Sol (Xhigh)",
     "context_window": 1000000,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "Anthropic",
     "intelligence": 49.0102124158081,
     "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
-  },
-  {
-    "model_name": "Claude Opus 5.5 (Medium, Default Fallback)",
-    "context_window": 1000000,
-    "creator": "Anthropic",
-    "intelligence": 48.0581024960691,
-    "url": "https://artificialanalysis.ai/models/claude-opus-5-5-medium"
   }
 ]
