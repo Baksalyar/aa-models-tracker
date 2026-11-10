@@ -1,30 +1,51 @@
 [
   {
+    "model_name": "Claude Fable 5.2 (Max, Default Fallback)",
+    "context_window": 1000000,
+    "creator": "Anthropic",
+    "intelligence": 64.563595756626,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+  },
+  {
+    "model_name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+    "context_window": 1000000,
+    "creator": "Anthropic",
+    "intelligence": 62.2167392403357,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2-xhigh"
+  },
+  {
+    "model_name": "Claude Fable 5.2 (High, Default Fallback)",
+    "context_window": 1000000,
+    "creator": "Anthropic",
+    "intelligence": 61.8218785440284,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2-high"
+  },
+  {
     "model_name": "Gemini 4 Carbon (High)",
     "context_window": 1000000,
     "creator": "Google",
-    "intelligence": 59.425738829526,
+    "intelligence": 60.025738829526,
     "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
   },
   {
     "model_name": "Claude Opus 5.5 (Max, Default Fallback)",
     "context_window": 1000000,
     "creator": "Anthropic",
-    "intelligence": 58.4060336078904,
+    "intelligence": 59.1060336078904,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
   },
   {
     "model_name": "Gemini 4 Carbon (Medium)",
     "context_window": 1000000,
     "creator": "Google",
-    "intelligence": 57.7087824022788,
+    "intelligence": 58.2587824022788,
     "url": "https://artificialanalysis.ai/models/gemini-4-carbon-medium"
   },
   {
     "model_name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
     "context_window": 1000000,
     "creator": "Anthropic",
-    "intelligence": 56.9947060170507,
+    "intelligence": 57.4447060170507,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh"
   },
   {
@@ -35,10 +56,17 @@
     "url": "https://artificialanalysis.ai/models/gpt-6-astra"
   },
   {
+    "model_name": "Claude Fable 5.2 (Medium, Default Fallback)",
+    "context_window": 1000000,
+    "creator": "Anthropic",
+    "intelligence": 56.4083157101519,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2-medium"
+  },
+  {
     "model_name": "GPT-6 Astra (Xhigh)",
     "context_window": 1000000,
     "creator": "OpenAI",
-    "intelligence": 55.2557468569681,
+    "intelligence": 55.3057468569681,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh"
   },
   {
@@ -52,49 +80,56 @@
     "model_name": "GPT-6.1 Sol (Max)",
     "context_window": 1000000,
     "creator": "OpenAI",
-    "intelligence": 54.5087338138148,
+    "intelligence": 54.6087338138148,
     "url": "https://artificialanalysis.ai/models/gpt-6-1-sol"
   },
   {
     "model_name": "Claude Sonnet 5.5 (Max, Default Fallback)",
     "context_window": 1000000,
     "creator": "Anthropic",
-    "intelligence": 54.24133407109,
+    "intelligence": 54.54133407109,
     "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
   },
   {
     "model_name": "Gemini 4 Carbon (Low)",
     "context_window": 1000000,
     "creator": "Google",
-    "intelligence": 53.7206114502924,
+    "intelligence": 54.2206114502924,
     "url": "https://artificialanalysis.ai/models/gemini-4-carbon-low"
+  },
+  {
+    "model_name": "Claude Fable 5.2 (Low, Default Fallback)",
+    "context_window": 1000000,
+    "creator": "Anthropic",
+    "intelligence": 53.9249388799182,
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2-low"
   },
   {
     "model_name": "GPT-6.1 Sol (Xhigh)",
     "context_window": 1000000,
     "creator": "OpenAI",
-    "intelligence": 52.308219253291,
+    "intelligence": 52.458219253291,
     "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-xhigh"
   },
   {
     "model_name": "Claude Opus 5.5 (High, Default Fallback)",
     "context_window": 1000000,
     "creator": "Anthropic",
-    "intelligence": 51.6859958227294,
+    "intelligence": 51.8359958227294,
     "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high"
   },
   {
     "model_name": "GPT-6 Astra (Medium)",
     "context_window": 1000000,
     "creator": "OpenAI",
-    "intelligence": 51.4548393864113,
+    "intelligence": 51.5548393864113,
     "url": "https://artificialanalysis.ai/models/gpt-6-astra-medium"
   },
   {
     "model_name": "GPT-6.1 Terra (Max)",
     "context_window": 1000000,
     "creator": "OpenAI",
-    "intelligence": 50.9765188577015,
+    "intelligence": 51.3265188577015,
     "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
   },
   {
@@ -103,40 +138,5 @@
     "creator": "Google",
     "intelligence": 50.4121935905389,
     "url": "https://artificialanalysis.ai/models/gemini-4-argon"
-  },
-  {
-    "model_name": "GPT-6.1 Sol (High)",
-    "context_window": 1000000,
-    "creator": "OpenAI",
-    "intelligence": 50.2291231936536,
-    "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-high"
-  },
-  {
-    "model_name": "Muse Wonder Full (Max)",
-    "context_window": 1000000,
-    "creator": "Meta",
-    "intelligence": 49.7272123627021,
-    "url": "https://artificialanalysis.ai/models/muse-wonder-full"
-  },
-  {
-    "model_name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
-    "context_window": 1000000,
-    "creator": "Anthropic",
-    "intelligence": 49.6716384248632,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
-  },
-  {
-    "model_name": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-    "context_window": 1000000,
-    "creator": "Anthropic",
-    "intelligence": 49.5740327787242,
-    "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-xhigh"
-  },
-  {
-    "model_name": "Claude Fable 5.1 (Max, Default Fallback)",
-    "context_window": 1000000,
-    "creator": "Anthropic",
-    "intelligence": 49.0102124158081,
-    "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
   }
 ]
