@@ -105,6 +105,13 @@
     "url": "https://artificialanalysis.ai/models/claude-fable-5-2-low"
   },
   {
+    "model_name": "Gemini 4 Hydrogen (Xhigh)",
+    "context_window": 1000000,
+    "creator": "Google",
+    "intelligence": 53.9192287317542,
+    "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+  },
+  {
     "model_name": "GPT-6.1 Sol (Xhigh)",
     "context_window": 1000000,
     "creator": "OpenAI",
@@ -131,12 +138,5 @@
     "creator": "OpenAI",
     "intelligence": 51.3265188577015,
     "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
-  },
-  {
-    "model_name": "Gemini 4 Argon (High)",
-    "context_window": 1000000,
-    "creator": "Google",
-    "intelligence": 50.4121935905389,
-    "url": "https://artificialanalysis.ai/models/gemini-4-argon"
   }
 ]
